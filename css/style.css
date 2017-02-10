@@ -75,13 +75,17 @@
 }
 
 /*index.html*/
-.page-header{
+#margarita{
   font-size: 5em;
   text-align: center;
 }
 #sub{
   color:#e74c3c;
   font-size: 0.4em;
+}
+.description{
+  font-size: 1.15em;
+  text-align: justify;
 }
 
 
