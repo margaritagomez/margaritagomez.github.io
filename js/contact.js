@@ -1,3 +1,6 @@
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 function animationHover(element, animation){
     element = $(element);

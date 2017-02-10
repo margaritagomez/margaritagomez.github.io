@@ -88,6 +88,23 @@
   text-align: justify;
 }
 
+/*projects.html*/
+.project-img{
+  width: 16.5em;
+  float: left;
+}
+
+.project-description-title{
+  font-weight: 600;
+}
+
+.project-description{
+  text-align: justify;
+}
+
+.panel-title{
+  font-weight: 600;
+}
 
 /*contact.html*/
 .boton-contact{
