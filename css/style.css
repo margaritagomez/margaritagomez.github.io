@@ -110,6 +110,51 @@
   font-weight: 600;
 }
 
+.btn-tech{
+  width: 3em;
+  height: 3em;
+  margin: 0.2em;
+}
+
+.btn-icon{
+  padding: 0.2em 0.1em;
+}
+
+#btnnodered{
+  padding: 0.2em 0.5em;
+}
+
+#btnjava{
+  padding: 0em 0em;
+}
+
+#btnjs{
+  padding: 0em 0em;
+}
+
+#btnplay{
+  padding: 0em 0.25em;
+}
+
+.java-icon{
+  width: 3em;
+}
+
+.node-red-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.js-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.play-icon{
+  width: 1.4em;
+  filter: grayscale(100%);
+}
+
 /*contact.html*/
 .boton-contact{
   float:left;

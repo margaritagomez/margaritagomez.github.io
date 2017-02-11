@@ -22,6 +22,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Gafata" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -107,7 +108,27 @@
                                     <h3 class="panel-title">Technologies</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+                                    <button type="button" id="btnjava" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Java EE">
+                                      <img class="java-icon" src="img/java-icon.png" alt="java icon">
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
+                                      <i class="fa fa-database fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Play Framework">
+                                      <img class="play-icon" src="img/play-icon.png" alt="play icon">
+                                    </button>
+                                    <button type="button" id="btnnodered" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Node-RED">
+                                      <img class="node-red-icon" src="img/node-red-icon.png" alt="node-red icon">
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                      <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                      <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" id="btnjs" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="JavaScript">
+                                      <img class="js-icon" src="img/js-icon.png" alt="node-red icon">
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +136,48 @@
                     <div class="col-lg-6">
                         <h2 class="animated fadeInRight"><i class="fa fa-heartbeat project-icon" aria-hidden="true"></i> Carotid Research Project</h2>
                         <div class="project animated fadeInLeft">
-
+                          <div class="thumbnail">
+                              <div class="col-lg-6"><br>
+                                  <img class="project-img" src="img/oilcol.PNG" alt="Dashboard of OilCol web app">
+                              </div>
+                              <div class="col-lg-6 ">
+                                  <h4 class="project-description-title">Description</h4>
+                              </div>
+                              <p class="project-description">Mock web application that imitates an oil-extracting company in order keep updates of their wells, each equipped with sensors that constantly send information.</p>
+                              <a href="https://github.com/Arquisuave/oilcol-app-play" target="_blank">
+                                  <button type="button" class="btn btn-default btn-md ">
+                                <i class="fa fa-github " aria-hidden="true"></i> Repository
+                            </button>
+                              </a>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h3 class="panel-title">Technologies</h3>
+                              </div>
+                              <div class="panel-body">
+                                  <button type="button" id="btnjava" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Java EE">
+                                    <img class="java-icon" src="img/java-icon.png" alt="java icon">
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
+                                    <i class="fa fa-database fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Play Framework">
+                                    <img class="play-icon" src="img/play-icon.png" alt="play icon">
+                                  </button>
+                                  <button type="button" id="btnnodered" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Node-RED">
+                                    <img class="node-red-icon" src="img/node-red-icon.png" alt="node-red icon">
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                    <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                    <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" id="btnjs" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="JavaScript">
+                                    <img class="js-icon" src="img/js-icon.png" alt="node-red icon">
+                                  </button>
+                              </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -125,13 +187,95 @@
                     <div class="col-lg-6">
                         <h2 class="animated fadeInRight"><i class="fa fa-ship project-icon" aria-hidden="true"></i> Vessels TPS</h2>
                         <div class="project animated fadeInLeft">
-
+                          <div class="thumbnail">
+                              <div class="col-lg-6"><br>
+                                  <img class="project-img" src="img/oilcol.PNG" alt="Dashboard of OilCol web app">
+                              </div>
+                              <div class="col-lg-6 ">
+                                  <h4 class="project-description-title">Description</h4>
+                              </div>
+                              <p class="project-description">Mock web application that imitates an oil-extracting company in order keep updates of their wells, each equipped with sensors that constantly send information.</p>
+                              <a href="https://github.com/Arquisuave/oilcol-app-play" target="_blank">
+                                  <button type="button" class="btn btn-default btn-md ">
+                                <i class="fa fa-github " aria-hidden="true"></i> Repository
+                            </button>
+                              </a>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h3 class="panel-title">Technologies</h3>
+                              </div>
+                              <div class="panel-body">
+                                  <button type="button" id="btnjava" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Java EE">
+                                    <img class="java-icon" src="img/java-icon.png" alt="java icon">
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
+                                    <i class="fa fa-database fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Play Framework">
+                                    <img class="play-icon" src="img/play-icon.png" alt="play icon">
+                                  </button>
+                                  <button type="button" id="btnnodered" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Node-RED">
+                                    <img class="node-red-icon" src="img/node-red-icon.png" alt="node-red icon">
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                    <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                    <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" id="btnjs" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="JavaScript">
+                                    <img class="js-icon" src="img/js-icon.png" alt="node-red icon">
+                                  </button>
+                              </div>
+                          </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="animated fadeInLeft"><i class="fa fa-suitcase project-icon" aria-hidden="true"></i> Vacation Planner Web App</h2>
                         <div class="project animated fadeInRight">
-
+                          <div class="thumbnail">
+                              <div class="col-lg-6"><br>
+                                  <img class="project-img" src="img/oilcol.PNG" alt="Dashboard of OilCol web app">
+                              </div>
+                              <div class="col-lg-6 ">
+                                  <h4 class="project-description-title">Description</h4>
+                              </div>
+                              <p class="project-description">Mock web application that imitates an oil-extracting company in order keep updates of their wells, each equipped with sensors that constantly send information.</p>
+                              <a href="https://github.com/Arquisuave/oilcol-app-play" target="_blank">
+                                  <button type="button" class="btn btn-default btn-md ">
+                                <i class="fa fa-github " aria-hidden="true"></i> Repository
+                            </button>
+                              </a>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h3 class="panel-title">Technologies</h3>
+                              </div>
+                              <div class="panel-body">
+                                  <button type="button" id="btnjava" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Java EE">
+                                    <img class="java-icon" src="img/java-icon.png" alt="java icon">
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
+                                    <i class="fa fa-database fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Play Framework">
+                                    <img class="play-icon" src="img/play-icon.png" alt="play icon">
+                                  </button>
+                                  <button type="button" id="btnnodered" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Node-RED">
+                                    <img class="node-red-icon" src="img/node-red-icon.png" alt="node-red icon">
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                    <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                    <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" id="btnjs" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="JavaScript">
+                                    <img class="js-icon" src="img/js-icon.png" alt="node-red icon">
+                                  </button>
+                              </div>
+                          </div>
                         </div>
                     </div>
                 </div>
