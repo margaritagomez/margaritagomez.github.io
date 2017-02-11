@@ -88,6 +88,10 @@
   text-align: justify;
 }
 
+#foto{
+  width: 30em;
+}
+
 /*projects.html*/
 .project-img{
   width: 16.5em;
@@ -132,6 +136,14 @@
   padding: 0em 0em;
 }
 
+#btnpostgresql{
+  padding: 0em 0em;
+}
+
+#btnmongo{
+  padding: 0em 0em;
+}
+
 #btnjs{
   padding: 0em 0em;
 }
@@ -145,6 +157,18 @@
 }
 
 #btnmatlab{
+  padding: 0em 0em;
+}
+
+#btnsqldeveloper{
+  padding: 0em 0em;
+}
+
+#btnwildfly{
+  padding: 0em 0em;
+}
+
+#btnangular{
   padding: 0em 0em;
 }
 
@@ -162,6 +186,16 @@
   filter: grayscale(100%);
 }
 
+.postgresql-icon{
+  width: 2em;
+  filter: grayscale(100%);
+}
+
+.mongo-icon{
+  width: 3em;
+  filter: grayscale(100%);
+}
+
 .play-icon{
   width: 1.4em;
   filter: grayscale(100%);
@@ -174,6 +208,21 @@
 
 .matlab-icon{
   width: 2em;
+}
+
+.wildfly-icon{
+  width: 3em;
+  filter: grayscale(100%);
+}
+
+.sqldeveloper-icon{
+  width: 2.5em;
+  filter: grayscale(100%);
+}
+
+.angular-icon{
+  width: 2em;
+  filter: grayscale(100%);
 }
 
 /*contact.html*/
