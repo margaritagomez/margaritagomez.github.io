@@ -94,6 +94,10 @@
   float: left;
 }
 
+.project-icon{
+  color: #e74c3c;
+}
+
 .project-description-title{
   font-weight: 600;
 }
