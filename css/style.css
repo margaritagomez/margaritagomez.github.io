@@ -136,6 +136,10 @@
   padding: 0em 0.25em;
 }
 
+#btnarduino{
+  padding: 0em 0em;
+}
+
 #btnmatlab{
   padding: 0em 0em;
 }
@@ -159,9 +163,13 @@
   filter: grayscale(100%);
 }
 
+.arduino-icon{
+  width: 2.5em;
+  filter: grayscale(100%);
+}
+
 .matlab-icon{
   width: 2em;
-  height: 2em;
 }
 
 /*contact.html*/
