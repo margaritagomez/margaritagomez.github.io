@@ -136,6 +136,10 @@
   padding: 0em 0.25em;
 }
 
+#btnmatlab{
+  padding: 0em 0em;
+}
+
 .java-icon{
   width: 3em;
 }
@@ -153,6 +157,10 @@
 .play-icon{
   width: 1.4em;
   filter: grayscale(100%);
+}
+
+.matlab-icon{
+  width: 2em;
 }
 
 /*contact.html*/
