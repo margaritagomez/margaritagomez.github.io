@@ -270,6 +270,10 @@
   padding-top: 0em;
 }
 
+.containertm{
+  width: 100%;
+}
+
 .timeline {
   list-style: none;
   padding: 0;
