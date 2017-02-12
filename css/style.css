@@ -258,6 +258,10 @@
   color: #e74c3c;
 }
 
+#portales{
+  padding-top: 0em;
+}
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -312,7 +316,20 @@
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 100%;
+  border: 7px solid #f1f1f1;
+  text-align: center;
+}
+.timeline > li .timeline-image-blanco {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: white;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
