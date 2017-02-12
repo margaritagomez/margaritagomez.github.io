@@ -92,6 +92,14 @@
   width: 30em;
 }
 
+.skills{
+  font-size: 1.3em;
+}
+
+.pink{
+  color: #e74c3c;
+}
+
 /*projects.html*/
 .project-img{
   width: 30em;
