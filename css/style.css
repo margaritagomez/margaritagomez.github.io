@@ -236,7 +236,7 @@
 
 .auth0-icon{
   width: 3em;
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 
 /*contact.html*/
