@@ -67,9 +67,9 @@ $(document).ready(function(){
 
 //mail
 document.getElementById("email").onclick = function(){
-  var recipient='mm.gomez10';
+  var recipient='margaretgomezb';
   var at = String.fromCharCode(64);
-  var dotcom='uniandes.edu.co';
+  var dotcom='gmail.com';
   var mail="mailto:";
   window.open(mail+recipient+at+dotcom);
 }
