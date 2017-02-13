@@ -66,10 +66,14 @@ $(document).ready(function(){
 });
 
 //mail
-document.getElementById("email").onclick = function(){
+function sendMail(){
   var recipient='margaretgomezb';
   var at = String.fromCharCode(64);
   var dotcom='gmail.com';
   var mail="mailto:";
   window.open(mail+recipient+at+dotcom);
 }
+
+  document.getElementById("email").addEventListener('click', function(){
+    sendMail();
+  });
