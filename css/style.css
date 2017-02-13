@@ -455,9 +455,15 @@
   }
 }
 
+/*like.html*/
+#pizza{
+  width: 100%;
+}
+
+
 /*contact.html*/
 .boton-contact{
-  float:left;
+  float: left;
   margin: 20px;
   padding: 10px;
 }

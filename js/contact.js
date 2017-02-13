@@ -64,3 +64,12 @@ $(document).ready(function(){
         animationHoverShow(this, 'fadeInDown');
     });
 });
+
+//mail
+document.getElementById("email").onclick = function(){
+  var recipient='mm.gomez10';
+  var at = String.fromCharCode(64);
+  var dotcom='uniandes.edu.co';
+  var mail="mailto:";
+  window.open(mail+recipient+at+dotcom);
+}
