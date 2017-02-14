@@ -455,11 +455,14 @@
   }
 }
 
-/*like.html*/
-#pizza{
-  width: 100%;
+/*faq.html*/
+.answer{
+  font-size: 1.2em;
 }
 
+.question{
+  font-size: 1.4em;
+}
 
 /*contact.html*/
 .boton-contact{

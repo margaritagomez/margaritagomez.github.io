@@ -3,7 +3,6 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-
 //Animate.css js
 //animation Hover
 function animationHover(element, animation){
