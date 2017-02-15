@@ -80,12 +80,11 @@
   text-align: center;
 }
 #sub{
-  color:#e74c3c;
   font-size: 0.4em;
 }
-.description{
+
+#description{
   font-size: 1.15em;
-  text-align: justify;
 }
 
 #foto{
@@ -104,10 +103,6 @@
 .project-img{
   width: 30em;
   padding: 0em 0em;
-}
-
-.project-icon{
-  color: #e74c3c;
 }
 
 .project-description-title{
@@ -267,7 +262,7 @@
 }
 
 #portales{
-  padding-top: 0em;
+  padding-top: 0.7em;
 }
 
 .containertm{

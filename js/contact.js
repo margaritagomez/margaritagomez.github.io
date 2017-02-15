@@ -76,3 +76,5 @@ function sendMail(){
   document.getElementById("email").addEventListener('click', function(){
     sendMail();
   });
+
+  
