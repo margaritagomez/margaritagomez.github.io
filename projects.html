@@ -23,17 +23,8 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Gafata" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
 </head>
 
 <body>
@@ -54,7 +45,7 @@
             </div>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
+                <ul class="nav navbar-nav side-nav bod">
                     <li class="ho">
                         <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
                     </li>
@@ -82,8 +73,8 @@
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header animated fadeInDownBig">
-                            Projects
+                        <h1 class="page-header animated fadeInDownBig head">
+                            <strong>Projects</strong>
                         </h1>
                     </div>
                 </div>
@@ -91,9 +82,109 @@
 
                 <div class="row">
                     <div class="col-lg-6">
-                        <h2 class="animated fadeInLeft"><i class="fa fa-tint pink" aria-hidden="true"></i> OilCol App</h2>
+                        <h2 class="animated fadeInLeft head"><i class="fa fa-cutlery pink" aria-hidden="true"></i> Cooky</h2>
                         <div class="project animated fadeInRight">
-                            <div class="well">
+                            <div class="well bod">
+                                <div class="row">
+                                    <div class="col-lg-1"></div>
+                                    <div class="thumbnail col-lg-10">
+                                        <img class="project-img" src="img/cooky.png" alt="Dashboard of Cooky web app">
+                                    </div>
+                                </div>
+                                <!--/.row-->
+                                <h4 class="project-description-title">Description</h4>
+                                <p class="project-description">
+                                  Cooky is a web application meant for people who love cooking. It enables users to add their own recipes and share them,
+                                  discover other users' featured recipes and search for new recipes using title, type and/or ingredients as filters.
+                                  <br>
+                                  Team size:
+                                  <i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i>
+                                </p>
+                                <a href="https://github.com/Tramii/cookyMeteor" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md">
+                                      <i class="fa fa-github " aria-hidden="true"></i> Repository
+                                    </button>
+                                </a>
+                                <a href="https://cooky-meteor.herokuapp.com" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md">
+                                      <i class="fa fa-external-link " aria-hidden="true"></i> Website
+                                    </button>
+                                </a>
+                            </div>
+                            <!--/.well-->
+                            <div class="panel panel-default bod">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Technologies</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <button type="button" id="btnmongo" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="MongoDB">
+                                      <img class="mongo-icon" src="img/mongo-icon.png" alt="Mongo DB icon">
+                                    </button>
+                                    <button type="button" id="btnreact" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="React">
+                                      <img class="react-icon" src="img/react-icon.svg" alt="react icon">
+                                    </button>
+                                    <button type="button" id="btnmeteor" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Meteor">
+                                      <img class="meteor-icon" src="img/meteor-icon.svg" alt="meteor icon">
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                      <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                      <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                    </button>
+                                    <button type="button" id="btnjs" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="JSX">
+                                      <img class="js-icon" src="img/js-icon.png" alt="Javascript icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <!--/.panel-->
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="animated fadeInRight head"><i class="fa fa-heartbeat pink" aria-hidden="true"></i> Carotid Research Project</h2>
+                        <div class="project animated fadeInLeft">
+                            <div class="well bod">
+                                <div class="row">
+                                    <div class="col-lg-1"></div>
+                                    <div class="thumbnail col-lg-10">
+                                        <img class="project-img" src="img/carotid.PNG" alt="Ultrasound image of a carotid segmentation">
+                                    </div>
+                                </div>
+                                <!--/.row-->
+                                <h4 class="project-description-title">Description</h4>
+                                <p class="project-description">Evolution of a software's GUI that assists manual curve tracing on combined
+                                    <a href="https://www.visualsonics.com/product/software/m-mode-imaging" target="_blank">M-Mode</a>/
+                                    <a href="https://www.visualsonics.com/product/software/b-mode-imaging" target="_blank">B-Mode</a> representation
+                                    of sequences of ultrasound images of the common carotid artery.
+                                    <br>
+                                </p>
+                                <a href="" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md" data-toggle="tooltip" data-placement="bottom" title="Not available">
+                                        <i class="fa fa-ban " aria-hidden="true"></i> Repository
+                                    </button>
+                                </a>
+                            </div>
+                            <!--/.well-->
+                            <div class="panel panel-default bod">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Technologies</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <button type="button" id="btnmatlab" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="MATLAB">
+                                    <img class="matlab-icon" src="img/matlab-icon.png" alt="matlab icon">
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="animated fadeInLeft head"><i class="fa fa-tint pink" aria-hidden="true"></i> OilCol App</h2>
+                        <div class="project animated fadeInRight">
+                            <div class="well bod">
                                 <div class="row">
                                     <div class="col-lg-1"></div>
                                     <div class="thumbnail col-lg-10">
@@ -102,8 +193,16 @@
                                 </div>
                                 <!--/.row-->
                                 <h4 class="project-description-title">Description</h4>
-                                <p class="project-description">Mock web application that imitates an oil-extracting company in order to keep updates of their wells, each equipped with sensors that constantly send information. <br> Team size: <i class="fa fa-child" aria-hidden="true"></i><i
-                                        class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i></p>
+                                <p class="project-description">
+                                  Mock web application that imitates an oil-extracting company in order to keep updates
+                                  of their wells, each equipped with sensors that constantly send information.
+                                  <br>
+                                  Team size:
+                                  <i class="fa fa-child" aria-hidden="true"></i>
+                                  <i class="fa fa-child" aria-hidden="true"></i>
+                                  <i class="fa fa-child" aria-hidden="true"></i>
+                                  <i class="fa fa-child" aria-hidden="true"></i>
+                                </p>
                                 <a href="https://github.com/Arquisuave/oilcol-app-play" target="_blank">
                                     <button type="button repository" class="btn btn-default btn-md ">
                                   <i class="fa fa-github " aria-hidden="true"></i> Repository
@@ -111,7 +210,7 @@
                                 </a>
                             </div>
                             <!--/.well-->
-                            <div class="panel panel-default">
+                            <div class="panel panel-default bod">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Technologies</h3>
                                 </div>
@@ -152,35 +251,59 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h2 class="animated fadeInRight"><i class="fa fa-heartbeat pink" aria-hidden="true"></i> Carotid Research Project</h2>
+                        <h2 class="animated fadeInRight head"><i class="fa fa-money pink" aria-hidden="true"></i> ConTrack</h2>
                         <div class="project animated fadeInLeft">
-                            <div class="well">
+                            <div class="well bod">
                                 <div class="row">
                                     <div class="col-lg-1"></div>
                                     <div class="thumbnail col-lg-10">
-                                        <img class="project-img" src="img/carotid.PNG" alt="Ultrasound image of a carotid segmentation">
+                                        <img class="project-img" src="img/contrack.PNG" alt="ConTrack homepage">
                                     </div>
                                 </div>
                                 <!--/.row-->
                                 <h4 class="project-description-title">Description</h4>
-                                <p class="project-description">Evolution of a software's GUI that assists manual curve tracing on combined
-                                    <a href="https://www.visualsonics.com/product/software/m-mode-imaging" target="_blank">M-Mode</a>/
-                                    <a href="https://www.visualsonics.com/product/software/b-mode-imaging" target="_blank">B-Mode</a> representation of sequences of ultrasound images of the common carotid artery. <br> Team size:
-                                    <i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i><i class="fa fa-child" aria-hidden="true"></i></p>
-                                <a href="" target="_blank">
-                                    <button type="button repository" class="btn btn-default btn-md" data-toggle="tooltip" data-placement="bottom" title="Not available yet">
+                                <p class="project-description">
+                                  ConTrack is a web application that aims to reduce corruption related to false cost
+                                  overruns in public works by displaying information about govenment-awarded contracts to private companies.
+                                  <br> Team size:
+                                    <i class="fa fa-child" aria-hidden="true"></i>
+                                    <i class="fa fa-child" aria-hidden="true"></i>
+                                    <i class="fa fa-child" aria-hidden="true"></i>
+                                  </p>
+                                <a href="https://github.com/Contrack-UA/contrack-app" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md">
                                         <i class="fa fa-github " aria-hidden="true"></i> Repository
+                                    </button>
+                                </a>
+                                <a href="https://contrack.herokuapp.com" target="_blank">
+                                    <button type="button repository" class="btn btn-default btn-md">
+                                      <i class="fa fa-external-link" aria-hidden="true"></i> Website
                                     </button>
                                 </a>
                             </div>
                             <!--/.well-->
-                            <div class="panel panel-default">
+                            <div class="panel panel-default bod">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Technologies</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <button type="button" id="btnmatlab" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="MATLAB">
-                                    <img class="matlab-icon" src="img/matlab-icon.png" alt="matlab icon">
+                                  <button type="button" id="btnmongo" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="MongoDB">
+                                    <img class="mongo-icon" src="img/mongo-icon.png" alt="Mongo DB icon">
+                                  </button>
+                                  <button type="button" id="btnreact" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="React">
+                                    <img class="react-icon" src="img/react-icon.svg" alt="react icon">
+                                  </button>
+                                  <button type="button" id="btnmeteor" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="Meteor">
+                                    <img class="meteor-icon" src="img/meteor-icon.svg" alt="meteor icon">
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="HTML5">
+                                    <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-default btn-tech btn-icon" data-toggle="tooltip" data-placement="bottom" title="CSS3">
+                                    <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+                                  </button>
+                                  <button type="button" id="btnjs" class="btn btn-default btn-tech" data-toggle="tooltip" data-placement="bottom" title="JSX">
+                                    <img class="js-icon" src="img/js-icon.png" alt="Javascript icon">
                                   </button>
                                 </div>
                             </div>
@@ -191,9 +314,9 @@
 
                 <div class="row">
                     <div class="col-lg-6">
-                        <h2 class="animated fadeInRight"><i class="fa fa-ship pink" aria-hidden="true"></i> Vessels TPS</h2>
+                        <h2 class="animated fadeInRight head"><i class="fa fa-ship pink" aria-hidden="true"></i> Vessels TPS</h2>
                         <div class="project animated fadeInLeft">
-                            <div class="well">
+                            <div class="well bod">
                                 <div class="row">
                                     <div class="col-lg-1"></div>
                                     <div class="thumbnail col-lg-10">
@@ -211,7 +334,7 @@
                                 </a>
                             </div>
                             <!--/.well-->
-                            <div class="panel panel-default">
+                            <div class="panel panel-default bod">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Technologies</h3>
                                 </div>
@@ -230,9 +353,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h2 class="animated fadeInLeft"><i class="fa fa-suitcase pink" aria-hidden="true"></i> Vacation Planner Web App</h2>
+                        <h2 class="animated fadeInLeft head"><i class="fa fa-suitcase pink" aria-hidden="true"></i> Vacation Planner Web App</h2>
                         <div class="project animated fadeInRight">
-                            <div class="well">
+                            <div class="well bod">
                                 <div class="row">
                                     <div class="col-lg-1"></div>
                                     <div class="thumbnail col-lg-10">
@@ -250,7 +373,7 @@
                                 </a>
                             </div>
                             <!--/.well-->
-                            <div class="panel panel-default">
+                            <div class="panel panel-default bod">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Technologies</h3>
                                 </div>
@@ -293,6 +416,7 @@
     <script src="js/contact.js"></script>
 
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://use.fontawesome.com/ddb5260482.js"></script>
 
 </body>
 
